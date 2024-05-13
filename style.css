@@ -1,0 +1,526 @@
+.banner_section {
+    background-color: rgb(6, 2, 27);
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    height: 90vh;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    text-decoration: none;
+    /* color: white; */
+    background: linear-gradient(to right, #86249F, #EA2840);
+    background-clip: text;
+    color: transparent;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.banner_element_image img {
+    height: 250px;
+    width: auto;
+    padding-bottom: 30px;
+
+}
+
+.banner_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh
+}
+
+.banner_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_content p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.banner_content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-weight: 800;
+    margin: 0;
+    padding-top: 12px;
+}
+
+.position_details {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.position_details h3:nth-child(1) {
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 2px;
+
+}
+
+.position_details h3:nth-child(2) {
+    /* color: rgb(250, 151, 12); */
+    background: linear-gradient(to right, #86249F, #EA2840);
+    background-clip: text;
+    color: transparent;
+
+
+    font-size: 54px;
+    font-weight: 700;
+    margin: 0;
+
+
+}
+
+.skill_card {
+    height: 215px;
+    width: 244px;
+    background-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.skill_card .devop {
+    font-size: 19px;
+
+    color: white;
+    margin: 0;
+    font-weight: 600;
+}
+
+.skill_card p {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+
+
+
+}
+
+.skill .content {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    background-color: rgb(6, 2, 27);
+
+}
+
+.btn {
+    padding-top: 30px;
+}
+
+.skill .content {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 70px;
+    align-items: center;
+}
+
+.skill .detail3 {
+    padding-top: 100px;
+    padding-bottom: 12px;
+}
+
+.portfolio {
+    /* color: rgb(147, 9, 147); */
+    background: linear-gradient(to right, #86249F, #EA2840);
+    background-clip: text;
+    color: transparent;
+    border-radius: 30px;
+    padding: 15px 35px;
+    border-color: #86249F;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hire {
+    color: #e435ed;
+    border-radius: 30px;
+    padding: 15px 35px;
+    background-color: #ffffff;
+    border: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.first.col img {
+    height: 300px;
+    width: auto;
+    margin-left: 300px;
+    padding-bottom: 82px;
+}
+
+
+
+.aboutsection {
+    background-color: rgb(6, 2, 27);
+}
+
+.about {
+    background-color: rgb(6, 2, 27);
+    padding-top: 12px;
+
+
+}
+
+.first.col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.detail p {
+    /* color: rgb(159, 27, 163); */
+    font-size: 35px;
+    text-align: center;
+    background: linear-gradient(to right, #86249F, #EA2840);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+
+}
+
+.detail h5 {
+    color: white;
+    font-size: 25px;
+
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 50px 0px;
+
+
+
+}
+
+
+.second.col .details .description {
+
+    color: beige;
+    font-size: 19px;
+    padding-top: 12px;
+    font-family: poppins;
+    font-weight: 80px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+
+
+}
+
+.details .btn11 {
+
+    background: linear-gradient(to right, #86249F, #EA2840);
+
+    color: white;
+    border-radius: 30px;
+    padding: 15px 35px;
+
+    border: 1px solid #f6f2f6;
+    font-size: 16px;
+    background-color: #e435ed;
+    /* height: 40px; */
+    /* width: 120px; */
+    text-align: center;
+    font-weight: 500;
+
+
+}
+
+
+
+
+
+
+.skill .detail3 p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.skill .detail3 h6 {
+    /* color: #e435ed; */
+    background: linear-gradient(to right, #86249F, #EA2840);
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    gap: 2px;
+
+    font-weight: bold;
+}
+
+.detail3 {
+    display: flex;
+    gap: 5px;
+    padding-top: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.paragraph {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 20px;
+}
+
+
+
+
+
+
+.card {
+    height: auto;
+    width: 50px;
+    background-color: black;
+}
+
+.skilll .skillcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* padding-top: 40px; */
+    padding-bottom: 30px;
+
+}
+
+.skilll .skilldata {
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skilll .skilldata p {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.skilll {
+    margin-bottom: 40px;
+}
+
+
+.skilll {
+    background-color: rgb(6, 2, 27);
+
+}
+
+.dot h3 {
+    color: white;
+
+}
+
+.skilll {
+    padding-top: 50px;
+}
+
+.project {
+    background-color: rgb(6, 2, 27);
+
+}
+
+.exam p {
+    color: white;
+    text-align: center;
+
+
+}
+
+.exam h7 {
+    background: linear-gradient(to right, #86249F, #EA2840);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.exam {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.works img {
+    height: 250px;
+    width: 300px;
+}
+
+.works {
+    display: flex;
+    gap: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+
+
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.contact .contact h2 {
+    font-size: 36px;
+    font-weight: 500px;
+    color: white;
+
+
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #f7f4fb;
+}
+
+.contacts {
+    background-color: rgb(6, 2, 27);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contacts h1 {
+    text-align: center;
+    margin: 50px 0px;
+    background: linear-gradient(to right, #86249F, #550f39);
+    background-clip: text;
+    color: transparent;
+    padding-top: 20px;
+
+}
+
+
+
+input[type=text],
+[type=number],
+[type=email],
+textarea {
+    border-radius: 16px;
+    padding-right: 150px;
+    padding-top: 15px;
+    background-color: #06021b;
+    color: #780678;
+    border: 1px solid #525151
+}
+
+.inp1,
+.inp2 {
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    padding: 12px;
+    padding-bottom: 15px;
+
+}
+
+.b2btn {
+    background: linear-gradient(to right, #86249F, #EA2840);
+
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: 1px solid #f6f2f6;
+    font-size: 16px;
+    background-color: #e435ed;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+
+}
+
+:root {
+    --main-bg: #000000;
+    --pink: 255, 0, 89;
+    --violet: 186, 0, 253;
+    --blue: 0, 165, 253;
+    --yellow: 255, 200, 0;
+    --light: 255, 255, 255;
+    --alpha: .5;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+.skill_card:hover{
+    border: 3px solid purple;
+    transform: translateY(-10px)scale(1.03);
+    
+}
+
+
+
+
